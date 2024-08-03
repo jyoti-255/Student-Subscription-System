@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kamal Classes Newsletter</title>
+    <style>
+        * { font-size: 40px; font-family: Cambria; }
+        body { background-color: linen; }
+        .btn { width: 30%; margin-left: 100px; border-radius: 30px; }
+        .btn:hover { color: red; background-color: yellow; }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Kamal Classes Newsletter</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <table>
+                {{ fm.as_table }}
+            </table>
+            <br/>
+            <input type="submit" name="sub" value="Subscribe" class="btn"/>
+            <input type="submit" name="unsub" value="Unsubscribe" class="btn"/>
+        </form>
+        <h2>{{msg}}</h2>
+    </center>
+</body>
+</html>
