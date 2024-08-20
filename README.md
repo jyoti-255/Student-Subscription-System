@@ -1,7 +1,7 @@
 # News Letter Verification using SMS
 
 
-## This Django project is a student subscription system that allows users to subscribe and unsubscribe using their phone numbers. When a user subscribes or unsubscribes, they receive an SMS notification.
+ This Django project is a student subscription system that allows users to subscribe and unsubscribe using their phone numbers. When a user subscribes or unsubscribes, they receive an SMS notification.
 
 ## Features
 - Subscription: Users can subscribe by entering their phone numbers. If the phone number is already registered, they are notified accordingly.
